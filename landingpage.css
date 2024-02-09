@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Montserrat:wght@500&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Montserrat:wght@500&family=Poppins:wght@700&family=Source+Sans+3:wght@700&display=swap');
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Monserrat, sans-serif;
+    background-image: url(valbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 15px;
+    color: #24252a;
+    text-decoration: none;
+}
+
+.wrapper1 {
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    padding: 50px 50px;
+    padding-top: 100px;
+    justify-content: space-around;
+}
+
+.countdown-wrap {
+    display: flex;
+    color: #e9eaec;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+    padding: 35px;
+    background-color: pink;
+    color: black;
+}
+
+.countdown {
+    display: flex;
+    margin: 0px 25px;
+    width: 325px;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    font-family: Cabin, Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: right;
+    margin: 15px;
+}
+
+.time h2 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+
+.countdown h2{
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-wrap .countdown-title {
+    padding: 5px 75px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.valentines {
+    color: #e9eaec;
+    width: 1000px;
+    align-items: center;
+    justify-content: left;
+    border: 5px solid clear;
+    padding: 35px;
+    background-color: pink;
+    color: black;
+}
+
+.valentines h2 {
+    font-size: 29px;
+}
+
+.valentines p {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.wrapper2 {
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    padding: 50px 50px;
+    justify-content: space-around;
+}
+
+.valentine-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+    padding: 20px 0px;
+    background-color: pink;
+}
+
+.image img {
+    height: 400px;
+    width: auto;
+    margin: 0px 200px;
+    margin-top: 20px;
+}
+
+.options {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.options .choices {
+    margin-top: 20px;
+    width: 130px;
+    height: 35px;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+#choices-yes {
+    background-color: rgb(0, 255, 0);
+    font-weight: bold;
+    transition: .5s;
+}
+#choices-yes:hover {
+    background-color: rgb(0, 166, 0);
+    color: white;
+}
+
+#choices-no {
+    background-color: red;
+    font-weight: bold;
+    transition: .5s;
+}
+#choices-no:hover {
+    background-color: rgb(194, 4, 4);
+    color: white;
+}
+
+.wrapper3 {
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    padding: 50px 50px;
+    padding-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper3 #ifNo {
+    display: none;
+}
+.wrapper3 #ifYes{
+    display: none;
+}
+
+.location {
+    background-color: pink;
+    margin-top: 50px;
+    padding: 50px;
+}
+.location img {
+    height: 400px;
+    width: auto;
+}
+
+.outfit {
+    background-color: pink;
+    margin-top: 50px;
+    padding: 50px;
+}
+.outfit img {
+    height: 400px;
+    width: auto;
+}
+
+.misc {
+    background-color: pink;
+    margin-top: 50px;
+    padding: 50px;
+}
+.misc img {
+    height: 400px;
+    width: auto;
+}
+

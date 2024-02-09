@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>secret website thingy</title>
+    <link rel="stylesheet" href="val.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="form-box login">
+      <div class="texts">
+        <h2>HAPPY VALENTINES BABES</h2>
+        <p>Wait holup, are you my babes? You see anyone can access this website, so u gotta verify ur IDENTITY. Otherwise you are an impostor.</p>
+      </div>
+      <form action="#">
+        <div class="input-box">
+          <input type="email" autocomplete="off" id="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <input type="password" autocomplete="off" id="password" required>
+          <label>Password</label>
+        </div> 
+        <div>
+          <button class="submit-btn" onclick="auth()">Login</button>
+        </div>
+       </form>
+      <button class="forgot-password" onclick="appearPassword()">IDK THE DAMN EMAIL AND PASSWORD</button>
+      <div>
+        <p id="hint1">Email = ilovemyboyfriend@gmail.com</p>
+        <p id="hint2">Password = dannyiscool</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="val.js"></script>
+</body>
+</html>
